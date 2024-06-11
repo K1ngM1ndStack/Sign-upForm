@@ -1,3 +1,9 @@
-h1 {
-    color: red;
+img {
+    width: 20%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+body {
+    background-color: rgba(140, 87, 190, 0.715);
 }
