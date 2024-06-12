@@ -1,9 +1,22 @@
-img {
-    width: 20%;
-    height: 100vh;
-    object-fit: cover;
+:root {
+    --width-bg: 20%
 }
 
 body {
     background-color: rgba(140, 87, 190, 0.715);
+}
+
+img {
+    width: var(--width-bg);
+    height: 100vh;
+    position: relative;
+}
+
+.background-logo {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    margin-top: 200px;
+    z-index: 1;
+    width: var(--width-bg);
+    height: 120px;
 }
