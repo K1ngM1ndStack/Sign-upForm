@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(../assets/Norse-Bold.otf);
+}
+
+.aside {
+    background-image: url('../assets/StockCake-Cyberpunk\ Cityscape\ View_1718113100.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    width: 20%;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 70px;
+    height: 90px;
+}
+
+.text {
+    font-family: 'Norse-Bold';
+    font-size: 60px;
+    color: aliceblue;
+}
